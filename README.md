@@ -7,4 +7,3 @@ __Commonsense Knowledge Aware Conversation Generation with Graph Attention__ [[P
 
 __Flexible End-to-End Dialogue System for Knowledge Grounded Conversation__
 
-__A Knowledge-Grounded Neural Conversation Model__
