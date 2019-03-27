@@ -7,3 +7,5 @@ __Commonsense Knowledge Aware Conversation Generation with Graph Attention__ [[P
 
 __Flexible End-to-End Dialogue System for Knowledge Grounded Conversation__ [[Paper](https://arxiv.org/pdf/1709.04264.pdf)]
 
+## 2019
+__(百度) Knowledge Aware Conversation Generation with Reasoning on Augmented Graph__ [[Paper](https://arxiv.org/pdf/1903.10245v1.pdf)]
