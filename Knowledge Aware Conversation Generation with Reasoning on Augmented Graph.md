@@ -29,7 +29,23 @@ and conducts more ﬂexible multi-hop graph reasoning for knowledge selection. S
 
 ### 3.1 问题定义和模型概述
 
+KG 定义为 $\mathcal{G}=\{\mathcal{V},\mathcal{E}, \mathcal{L}^{\mathcal{E}}\}​$
+
+给定输入文本 $X=\{x_1,x_2,,x_m\}$ 和 $\mathcal{G}$
+
+目标生成 $Y = \{y_1,y_2,,y_n\}$
+
+分成两个阶段：
+
+- 知识选择：最大化下面概率的节点 v，v 与 $v_X$ 联通， $v_X$ 是根据 $X$ 中的实体或者单词从图 $\mathcal{G}​$ 中检索到的节点。
+
+  $v_Y = \arg \max_\limits{v} P_{KS}(v|v_X, \mathcal{G}, X)​$
+
+- 回复生成：$P_{RG}(Y|X,v_Y) = \prod_\limits{t=1}^n P(y_t|y_{<t}, X, v_Y)$
+
 ### 3.2 增强知识图
+
+
 
 ### 3.3 图上的知识选择
 
