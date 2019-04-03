@@ -41,13 +41,17 @@ KG 定义为 $\mathcal{G}=\{\mathcal{V},\mathcal{E}, \mathcal{L}^{\mathcal{E}}\}
 
   $v_Y = \arg \max_\limits{v} P_{KS}(v|v_X, \mathcal{G}, X)​$
 
-- 回复生成：$P_{RG}(Y|X,v_Y) = \prod_\limits{t=1}^n P(y_t|y_{<t}, X, v_Y)$
+- 回复生成：$P_{RG}(Y|X,v_Y) = \prod_\limits{t=1}^n P(y_t|y_{<t}, X, v_Y)​$
 
 ### 3.2 增强知识图
 
-
-
 ### 3.3 图上的知识选择
+
+**任务定义**：给定一个 input query $(v_X,X)$，RL agent 从图中对应于 X 的 vertex $v_X$，游走到与 answer 对应的 $v_Y$.
+
+**状态**：$S_t=(v_t, v_X, X, v_{gt})$, $v_t$ 表示 RL agent 当前位置，$v_{gt}$ 是 ground-truth vertex。
+
+**观测**：我们把问题定义为部分可观察的马尔科夫决策模型 (POMDP)，
 
 ### 3.4 Knowledge Aware Generation
 
