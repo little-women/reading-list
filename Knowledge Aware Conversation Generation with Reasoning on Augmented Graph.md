@@ -49,9 +49,17 @@ KG 定义为 $\mathcal{G}=\{\mathcal{V},\mathcal{E}, \mathcal{L}^{\mathcal{E}}\}
 
 **任务定义**：给定一个 input query $(v_X,X)$，RL agent 从图中对应于 X 的 vertex $v_X$，游走到与 answer 对应的 $v_Y$.
 
-**状态**：$S_t=(v_t, v_X, X, v_{gt})$, $v_t$ 表示 RL agent 当前位置，$v_{gt}$ 是 ground-truth vertex。
+**状态**：$S_t=(v_t, v_X, X, v_{gt})​$, $v_t​$ 表示 RL agent 当前位置，$v_{gt}​$ 是 ground-truth vertex。
 
-**观测**：我们把问题定义为部分可观察的马尔科夫决策模型 (POMDP)，
+**观测**：我们把问题定义为部分可观察的马尔科夫决策模型 (POMDP)，当前位置 $(v_t)$ 和 $(v_X, X)$ 是可观察的，ground-truth $(v_{gt})$ 是不可观察的。定义观察函数为：$O(S_t=(v_t, v_X, X, v_{gt}))=(v_t, v_X, X)​$
+
+**Actions**: $\mathcal{A}_{S_t} = \{(v_t,l_e,v_d) \in \mathcal{E}: S_t=(v_t, v_X, X, v_{gt}), l_e\in \mathcal{L}^{\mathcal{E}},v_d\in\mathcal{V} \} \cup \{(S_t,\empty, S_t)\}​$ . 
+
+**Transition**: $\delta(S_t, A)=(v_d,v_X,X,v_{gt})​$ ,其中 $S_t=(v_t, v_X, X, v_{gt})​$, $A=(v_t,l_e,v_d)​$
+
+**Rewards**：$R(S_T)=I\{v_T=v_{gt}\}$, 其中$S_T=(v_T,v_X,X,v_{gt})$ 是最终状态。
+
+**Policy**: $\pi=(d_0,d_1,...,d_{T-1})$, 其中 $d_t=P(\mathcal{A}_{S_t})$ 是在时间步 t 的一个策略。
 
 ### 3.4 Knowledge Aware Generation
 
