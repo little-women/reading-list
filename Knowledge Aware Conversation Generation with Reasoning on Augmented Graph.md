@@ -19,12 +19,6 @@ and conducts more ﬂexible multi-hop graph reasoning for knowledge selection. S
 
 ## 2. 相关工作
 
-### 2.1 基于知识图的对话
-
-### 2.2 基于非结构文本的对话
-
-
-
 ## 3. 模型
 
 ### 3.1 问题定义和模型概述
@@ -92,3 +86,10 @@ KG 定义为 $\mathcal{G}=\{\mathcal{V},\mathcal{E}, \mathcal{L}^{\mathcal{E}}\}
 **MemNet**: an end-to-end knowledge-grounded generation model, where top-k knowledge text candidates are selected by another retrieval model and then are stored into the memory units for generation. 
 
 > Marjan Ghazvininejad, Chris Brockett, Ming-Wei Chang, Bill Dolan, Jianfeng Gao, Wen tau Yih, and Michel Galley. 2018. A knowledge-groundedneural conversation model. In Proceedings of AAAI 2018, pages 5110–5117.
+
+**CCM**: an end-to-end commonsense conversational model, their model cannot effectively process long texts in vertices.
+
+> Hao Zhou, Tom Young, Minlie Huang, Haizhou Zhao, Jingfang Xu, and Xiaoyan Zhu. 2018. Commonsense knowledge aware conversation generation with graph attention. In Proceedings of IJCAIECAI, pages 4623–4629. 
+
+
+
