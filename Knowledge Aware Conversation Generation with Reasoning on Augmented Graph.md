@@ -37,7 +37,7 @@ KG 定义为 $\mathcal{G}=\{\mathcal{V},\mathcal{E}, \mathcal{L}^{\mathcal{E}}\}
 
 分成两个阶段：
 
-- 知识选择：最大化下面概率的节点 v，v 与 $v_X$ 联通， $v_X$ 是根据 $X$ 中的实体或者单词从图 $\mathcal{G}​$ 中检索到的节点。
+- 知识选择：最大化下面概率的节点 v，v 与 $v_X$ 联通， $v_X$ 是根据 $X$ 中的实体或者单词从图 $\mathcal{G}$ 中检索到的节点。
 
   $v_Y = \arg \max_\limits{v} P_{KS}(v|v_X, \mathcal{G}, X)​$
 
@@ -59,8 +59,36 @@ KG 定义为 $\mathcal{G}=\{\mathcal{V},\mathcal{E}, \mathcal{L}^{\mathcal{E}}\}
 
 **Rewards**：$R(S_T)=I\{v_T=v_{gt}\}$, 其中$S_T=(v_T,v_X,X,v_{gt})$ 是最终状态。
 
-**Policy**: $\pi=(d_0,d_1,...,d_{T-1})$, 其中 $d_t=P(\mathcal{A}_{S_t})$ 是在时间步 t 的一个策略。
+**Policy**: $\pi=(d_0,d_1,...,d_{T-1})​$, 其中 $d_t=P(\mathcal{A}_{S_t})​$ 是在时间步 t 的一个策略。
+
+
+
+**FNN**：首先用 LSTM encode history $H_t=(H_{t1}, A_{t1}, O_t)​$ as 连续向量 $h_t\in R^{2d}​$, $H_t​$ 是观察和动作执行的序列。定义为 $h_t=LSTM(h_{t-1},[a_{t1;o_t}])​$, 其中 $a_{t1}​$ 是 agent 在 t1 时刻选择的边的嵌入 (embedding of the relation)，$o_t​$ 是 agent 在 t 时刻的节点的嵌入 (embedding of the vertex).
+
+
 
 ### 3.4 Knowledge Aware Generation
 
 ## 4. 实验和结果
+
+### 4.1 实现细节
+
+我们基于 https://github.com/shehzaadzd/MINERVA  和 https://github.com/nikitacs16/Holl-E 实现知识选择，设置最大推理长度 T 为 3. 使用 TransE 初始化节点和关联表示。TransE 的嵌入大小设置为 768 (与 BERT embeddings https://github.com/hanxiao/bert-as-service设置兼容)，使用 BERT 获得输入信息的嵌入。
+
+我们基于 GTTP (https://github.com/nikitacs16/Holl-E) 实现知识感知的生成模型。
+
+### 4.2 实验设置
+
+**已有工作**：
+
+**Seq2Seq**: which is widely used in open-domain conversational systems. 
+
+> Ilya Sutskever, Oriol Vinyals, and Quoc V Le. 2014. Sequence to sequence learning with neural networks. In Proceedings of NIPS, pages 3104–3112.
+
+**HRED**:  A hierarchical recurrent encoder-decoder model
+
+> Iulian Vlad Serban, Alessandro Sordoni, Yoshua Bengio, Aaron C. Courville, and Joelle Pineau. 2016. Building end-to-end dialogue systems using generative hierarchical neural network models. In Proceedings of AAAI, pages 3776–3784.
+
+**MemNet**: an end-to-end knowledge-grounded generation model, where top-k knowledge text candidates are selected by another retrieval model and then are stored into the memory units for generation. 
+
+> Marjan Ghazvininejad, Chris Brockett, Ming-Wei Chang, Bill Dolan, Jianfeng Gao, Wen tau Yih, and Michel Galley. 2018. A knowledge-groundedneural conversation model. In Proceedings of AAAI 2018, pages 5110–5117.
