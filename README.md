@@ -9,3 +9,21 @@ __Flexible End-to-End Dialogue System for Knowledge Grounded Conversation__ [[Pa
 
 ## 2019
 __(百度) Knowledge Aware Conversation Generation with Reasoning on Augmented Graph__ [[Paper](https://arxiv.org/pdf/1903.10245v1.pdf)]
+
+## Existing works or baselines
+
+**Seq2Seq**: which is widely used in open-domain conversational systems. 
+
+> Ilya Sutskever, Oriol Vinyals, and Quoc V Le. 2014. Sequence to sequence learning with neural networks. In Proceedings of NIPS, pages 3104–3112.
+
+**HRED**:  A hierarchical recurrent encoder-decoder model
+
+> Iulian Vlad Serban, Alessandro Sordoni, Yoshua Bengio, Aaron C. Courville, and Joelle Pineau. 2016. Building end-to-end dialogue systems using generative hierarchical neural network models. In Proceedings of AAAI, pages 3776–3784.
+
+**MemNet**: an end-to-end knowledge-grounded generation model, where top-k knowledge text candidates are selected by another retrieval model and then are stored into the memory units for generation. 
+
+> Marjan Ghazvininejad, Chris Brockett, Ming-Wei Chang, Bill Dolan, Jianfeng Gao, Wen tau Yih, and Michel Galley. 2018. A knowledge-groundedneural conversation model. In Proceedings of AAAI 2018, pages 5110–5117.
+
+**CCM**: an end-to-end commonsense conversational model, their model cannot effectively process long texts in vertices.
+
+> Hao Zhou, Tom Young, Minlie Huang, Haizhou Zhao, Jingfang Xu, and Xiaoyan Zhu. 2018. Commonsense knowledge aware conversation generation with graph attention. In Proceedings of IJCAIECAI, pages 4623–4629. 
