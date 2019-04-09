@@ -31,4 +31,4 @@ __(微信) Cluster-based Beam Search for Pointer-Generator Chatbot Grounded by K
 
 > Hao Zhou, Tom Young, Minlie Huang, Haizhou Zhao, Jingfang Xu, and Xiaoyan Zhu. 2018. Commonsense knowledge aware conversation generation with graph attention. In Proceedings of IJCAIECAI, pages 4623–4629. 
 
-[NLP 资源合集](./NLP-资源合集.md)
+[NLP 资源合集](NLP.md)
