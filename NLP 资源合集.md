@@ -1,5 +1,13 @@
 ## NLP 资源合集
 
+### Useful GitHub Reading List
+
+- https://github.com/iwangjian/Paper-Reading :star::star::star::star::star:
+- https://github.com/crownpku/Awesome-Chinese-NLP (中文自然语言处理相关资料) :star::star::star: 
+- https://github.com/shaoxiongji/awesome-knowledge-graph (A collection of knowledge graph papers and reading notes) :star::star::star:
+- https://github.com/IsaacChanghau/DL-NLP-Readings :star::star::star::star: 
+
+
 ### 预训练模型 [[Ref](https://mp.weixin.qq.com/s/8_UZeAUtBElaO9aY5iSo-g)]
 
 **Cove：《Learned in Translation: Contextualized Word Vectors》**
@@ -51,6 +59,3 @@ PyTorch：https://github.com/facebookresearch/XLM
 **GPT-2：《Language Models are Unsupervised Multitask Learners》**
 
 TensorFlow：https://github.com/openai/gpt-2
-
-### Paper list
-
