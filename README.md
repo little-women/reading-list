@@ -1,4 +1,4 @@
-## 生成式对话相关论文 [[Ref](https://www.jianshu.com/p/e6b58994c063)]
+### 生成式对话相关论文 [[Ref](https://www.jianshu.com/p/e6b58994c063)]
 __Augmenting End-to-End Dialog Systems with Commonsense Knowledge__ [[Paper](https://arxiv.org/pdf/1709.05453.pdf)]
 
 __Topic Aware Neural Response Generation__ [[Paper](https://arxiv.org/pdf/1606.08340.pdf)]
@@ -7,13 +7,13 @@ __Commonsense Knowledge Aware Conversation Generation with Graph Attention__ [[P
 
 __Flexible End-to-End Dialogue System for Knowledge Grounded Conversation__ [[Paper](https://arxiv.org/pdf/1709.04264.pdf)]
 
-## 2019
+### 2019
 __(百度) Knowledge Aware Conversation Generation with Reasoning on Augmented Graph__ [[Paper](https://arxiv.org/pdf/1903.10245v1.pdf)]
 
-## 第七届对话系统技术挑战赛（DSTC7）[[Ref](http://workshop.colips.org/dstc7/)]
+### 第七届对话系统技术挑战赛（DSTC7）[[Ref](http://workshop.colips.org/dstc7/)]
 __(微信) Cluster-based Beam Search for Pointer-Generator Chatbot Grounded by Knowledge__ [[Paper](http://workshop.colips.org/dstc7/papers/03.pdf)] [[News](https://mp.weixin.qq.com/s/Jnp6jmy-8lloI7p4dAofKg)]
 
-## Existing works or baselines
+### Existing works or baselines
 
 **Seq2Seq**: which is widely used in open-domain conversational systems. 
 
@@ -31,4 +31,4 @@ __(微信) Cluster-based Beam Search for Pointer-Generator Chatbot Grounded by K
 
 > Hao Zhou, Tom Young, Minlie Huang, Haizhou Zhao, Jingfang Xu, and Xiaoyan Zhu. 2018. Commonsense knowledge aware conversation generation with graph attention. In Proceedings of IJCAIECAI, pages 4623–4629. 
 
-[NLP 资源合集](NLP.md)
+### [NLP 资源合集](NLP.md)
