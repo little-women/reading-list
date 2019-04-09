@@ -7,12 +7,13 @@ __Commonsense Knowledge Aware Conversation Generation with Graph Attention__ [[P
 
 __Flexible End-to-End Dialogue System for Knowledge Grounded Conversation__ [[Paper](https://arxiv.org/pdf/1709.04264.pdf)]
 
-### 2019
-__(百度) Knowledge Aware Conversation Generation with Reasoning on Augmented Graph__ [[Paper](https://arxiv.org/pdf/1903.10245v1.pdf)]
-
 ### TODO
 **Mem2Seq**: "Mem2Seq: Effectively Incorporating Knowledge Bases into End-to-End Task-Oriented Dialog Systems". ACL(2018) [[Paper]](https://arxiv.org/pdf/1804.08217v3.pdf) [[code]](https://github.com/HLTCHKUST/Mem2Seq) :star::star::star::star::star:
+
 **GTTP**: "Towards Exploiting Background Knowledge for Building Conversation Systems". EMNLP(2018)  [[Paper]](https://arxiv.org/pdf/1809.08205v1.pdf) [[code]](https://github.com/nikitacs16/Holl-E) :star::star::star::star::star:
+
+### 2019
+__(百度) Knowledge Aware Conversation Generation with Reasoning on Augmented Graph__ [[Paper](https://arxiv.org/pdf/1903.10245v1.pdf)]
 
 ### 第七届对话系统技术挑战赛（DSTC7）[[Ref](http://workshop.colips.org/dstc7/)]
 __(微信) Cluster-based Beam Search for Pointer-Generator Chatbot Grounded by Knowledge__ [[Paper](http://workshop.colips.org/dstc7/papers/03.pdf)] [[News](https://mp.weixin.qq.com/s/Jnp6jmy-8lloI7p4dAofKg)]
