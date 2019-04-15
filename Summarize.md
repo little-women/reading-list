@@ -18,4 +18,4 @@ o=\sum_{i=1}^kp_ic_i\\
 \hat{u} = o+u
 $$
 
-$r_i$ 是代表 fi 的词袋表示（v维）；u 是聊天信息encoder出的结果（d维）.
+$r_i​$ 是代表 fi 的词袋表示（v维）；u 是聊天信息encoder出的结果（d维）.

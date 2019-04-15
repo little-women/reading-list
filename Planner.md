@@ -6,7 +6,7 @@
         section 调研
         Paper-CCM                      :done, paper1, 2019-04-11,1d
         Paper-DSCT7                    :done, paper2, after paper1, 1d
-        Paper-MemNet                   :paper3, after paper2, 1d
+        Paper-MemNet                   :done, paper3, after paper2, 1d
         
         section 开发
         Code-CCM                      :crit, active, 2019-04-11,2d
@@ -21,9 +21,6 @@
         gantt
         dateFormat  YYYY-MM-DD
         title 周计划-Wei
-
-        section 调研
-        Paper-MemNet                   :paper1, 2019-04-15, 1d
         
         section 开发
         Code-CCM                      :crit, active,2019-04-15, 1d
