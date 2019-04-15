@@ -1,3 +1,14 @@
+## TODO
+**Mem2Seq**: "Mem2Seq: Effectively Incorporating Knowledge Bases into End-to-End Task-Oriented Dialog Systems". ACL(2018) [[Paper]](https://arxiv.org/pdf/1804.08217v3.pdf) [[code]](https://github.com/HLTCHKUST/Mem2Seq) :star::star::star::star::star:
+
+**GTTP**: "Towards Exploiting Background Knowledge for Building Conversation Systems". EMNLP(2018)  [[Paper]](https://arxiv.org/pdf/1809.08205v1.pdf) [[code]](https://github.com/nikitacs16/Holl-E) :star::star::star::star::star:
+
+## DONE
+**MemNet**:  "A knowledge-groundedneural conversation model." In Proceedings of AAAI 2018.  [[Paper]](https://arxiv.org/pdf/1702.01932v2.pdf) [[code]](https://github.com/mgalley/DSTC7-End-to-End-Conversation-Modeling) [[Note]](http://www.sohu.com/a/129408533_642762)
+
+**CCM**: "Commonsense Knowledge Aware Conversation Generation with Graph Attention." IJCAIECAI(2018) [[Paper](https://www.ijcai.org/proceedings/2018/0643.pdf)] [[Code](https://github.com/tuxchow/ccm)] [[Note](https://blog.csdn.net/tMb8Z9Vdm66wH68VX1/article/details/81518247)]
+
+## Reading List
 ### 生成式对话相关论文 [[Ref](https://www.jianshu.com/p/e6b58994c063)]
 __Augmenting End-to-End Dialog Systems with Commonsense Knowledge__ [[Paper](https://arxiv.org/pdf/1709.05453.pdf)]
 
@@ -6,17 +17,6 @@ __Topic Aware Neural Response Generation__ [[Paper](https://arxiv.org/pdf/1606.0
 __Commonsense Knowledge Aware Conversation Generation with Graph Attention__ [[Paper](https://www.ijcai.org/proceedings/2018/0643.pdf)] [[Code](https://github.com/tuxchow/ccm)] [[Note](https://blog.csdn.net/tMb8Z9Vdm66wH68VX1/article/details/81518247)]
 
 __Flexible End-to-End Dialogue System for Knowledge Grounded Conversation__ [[Paper](https://arxiv.org/pdf/1709.04264.pdf)]
-
-### TODO
-**Mem2Seq**: "Mem2Seq: Effectively Incorporating Knowledge Bases into End-to-End Task-Oriented Dialog Systems". ACL(2018) [[Paper]](https://arxiv.org/pdf/1804.08217v3.pdf) [[code]](https://github.com/HLTCHKUST/Mem2Seq) :star::star::star::star::star:
-
-**GTTP**: "Towards Exploiting Background Knowledge for Building Conversation Systems". EMNLP(2018)  [[Paper]](https://arxiv.org/pdf/1809.08205v1.pdf) [[code]](https://github.com/nikitacs16/Holl-E) :star::star::star::star::star:
-
-### DONE
-**MemNet**:  "A knowledge-groundedneural conversation model." In Proceedings of AAAI 2018.  [[Paper]](https://arxiv.org/pdf/1702.01932v2.pdf) [[code]](https://github.com/mgalley/DSTC7-End-to-End-Conversation-Modeling) [[Note]](http://www.sohu.com/a/129408533_642762)
-
-**CCM**: Commonsense Knowledge Aware Conversation Generation with Graph Attention. IJCAIECAI(2018) [[Paper](https://www.ijcai.org/proceedings/2018/0643.pdf)] [[Code](https://github.com/tuxchow/ccm)] [[Note](https://blog.csdn.net/tMb8Z9Vdm66wH68VX1/article/details/81518247)]
-
 
 ### 2019
 __(百度) Knowledge Aware Conversation Generation with Reasoning on Augmented Graph__ [[Paper](https://arxiv.org/pdf/1903.10245v1.pdf)] 
