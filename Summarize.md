@@ -99,3 +99,71 @@ $$
 
 > Cluster-based Beam Search for Pointer-Generator Chatbot Grounded by Knowledge
 
+![DSTC7-Arch](./images/DSTC7-Arch.png)
+
+### Fact Retrieval
+
+选取与对话最相关的前topk个事实：
+$$
+sim(H,F)=\sum_\limits{w\in H} idf(w) \times count(w\ in\ F)
+$$
+
+### Encoder
+
+$$
+H^H=(h_1^H,h_2^H,...,h_L^H)\\
+H^F=(h_1^F,h_2^F,...,h_T^F)
+$$
+
+### Decoder
+
+Decoder主要包含三个模块：
+
+1. 分别针对于对话历史和背景事实的注意力机制
+
+2. 生成回复的模式预测
+
+3. 词生成
+
+#### Attention Mechanism
+
+$$
+e_{ti}^H = v_H^T tanh(W_h^H h_i^H + W_r^Hh_t^R+b^H)\\
+\alpha_{ti}^H = Softmax(e_{ti}^H) \\
+h_t^{H*} =\sum_{i=1}^L\alpha_{ti}^H h_i^H \\
+$$
+
+$$
+e_{tj}^F = v_H^F tanh(W_h^F h_j^F + W_r^Fh_t^R+b^F)\\
+\alpha_{tj}^F = Softmax(e_{tj}^F) 
+\\h_t^{F*} =\sum_{j=1}^T\alpha_{tj}^F h_j^F \\
+$$
+
+#### Mode Prediction
+
+Mode Prediction支持以下三种模式：
+
+1. Seq2Seq生成一个词
+2. 从对话历史中复制一个词
+3. 从背景事实中复制一个词
+
+模型使用一个softmax得到每个模式的概率：
+$$
+Pr(mode=m|t,H,F)=Softmax(FF(h_t^{F*}\otimes h_t^{H*}\otimes h_t^R\otimes x_t))
+$$
+
+#### Word prediction
+
+最终，模型生成一个词的概率等于三种模式生成的概率相加：
+$$
+Pr(w|t,H,F) = \sum_{m=1}^3 Pr(m|t,H,F) Pr_m(w|t,H,F)
+$$
+
+1. 对于 Seq2Seq生成一个词：$Pr_m(w|t,H,F)=softmax(W_g h_t^R)​$
+2. 对于从对话历史或者背景事实中复制一个词： $Pr_m(w|t,H,F)=\alpha_{ti}^Hor\alpha_{ti}^F$
+
+#### Cluster-based Beam Search
+
+1. 首先根据对数似然概率选取前BS*2个候选项
+2. 然后使用K-means聚成K个簇，聚类的特征为已解码序列的词向量平均
+3. 在每一个簇中选取前BS/K个候选项作为下一步解码的候选集
