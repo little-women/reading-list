@@ -167,3 +167,35 @@ $$
 1. 首先根据对数似然概率选取前BS*2个候选项
 2. 然后使用K-means聚成K个簇，聚类的特征为已解码序列的词向量平均
 3. 在每一个簇中选取前BS/K个候选项作为下一步解码的候选集
+
+## DAWnet
+
+>Chat More: Deepening and Widening the Chatting Topic via A Deep Model
+
+![DAWnet-Arch](./images/DAWnet-Arch.png)
+
+DAWnet 的目标是加深和拓宽聊天话题来提高回复的质量。更具体而言，全局通道首先会将给定上下文 (context) 转换成一个嵌入向量，其中编码了完整的历史信息。然后 DAWnet 会从句子中抽取出关键词，在收集到的关键词和上下文嵌入向量的基础上，宽度通道依赖一个基于注意力机制的循环神经网络（RNN）模型来预测相关话题的关键词。值得注意的是，这些关键词可能并没有出现在给定上下文中。深度通道则是通过训练一个多层感知机（MLP）模型来从上下文选择一些关键词进行话题的深入，其输入是上下文嵌入向量和收集到的关键词。我们的整个方案最后会将上下文编码器的输出、宽度通道中预测的关键词、深度通道中选择的关键词输入一个基于注意力机制的选择器，帮助解码器生成有意义的答复。
+
+### Global Channel
+
+$$
+\mathcal{C}=\{w_1...w_t,...,w_T\}\\
+h_t = f(h_{t-1}, e_{w_t})
+$$
+
+### Wide Channel
+
+![DWAnet-Wide](./images/DWAnet-Wide.png)
+$$
+s_t=f(s_{t-1},[e_{k_{t-1}^p}, c_t])\\
+m_i = W_t e_{k_{i}^c} \\
+c_t = \sum_{i=1}^T \alpha_{ti} h_i + \sum_{i=T+1}^{T+M} \alpha_{ti}m_i
+$$
+$e_{k_{t-1}^p}$ is the embedding vector of the keyword at time t-1 in the sequence of the **predicted** keywords.
+
+$e_{k_i^c}​$ is the embedding vector of the i-th **contextual** keyword.
+
+### Deep Channel
+
+![DAWnet-Deep](./images/DAWnet-Deep.png)
+

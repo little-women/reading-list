@@ -30,9 +30,10 @@
         section 开发
         Code-CCM                      :crit, active,2019-04-15, 1d
         Code-MemNet                   :crit, active,2019-04-15, 1d
+        调参，试使用预训练的embedding       :crit, active,2019-04-16, 2d
     
         section 测试
-        尝试参照 CCM 改进                   :crit, active, task1, 2019-04-16, 1d
+        尝试参照 CCM 改进                   :crit, active, task1, 2019-04-16, 2d
         调参                        :task2, after task1, 2d
 ```
 

@@ -3,7 +3,7 @@
 
 **GTTP**: "Towards Exploiting Background Knowledge for Building Conversation Systems". EMNLP(2018)  [[Paper]](https://arxiv.org/pdf/1809.08205v1.pdf) [[code]](https://github.com/nikitacs16/Holl-E) :star::star::star::star::star:
 
-**DAWnet**: "Chat More: Deepening and Widening the Chatting Topic via A Deep Model". SIGIR(2018) [[PDF]](https://sigirdawnet.wixsite.com/dawnet) [[code]](https://sigirdawnet.wixsite.com/dawnet) [[Note]](http://tech.ifeng.com/a/20180424/44967077_0.shtml) :star::star::star::star::star:
+**CopyNet (GenDS)**: "Flexible End-to-End Dialogue System for Knowledge Grounded Conversation". [[Paper](https://arxiv.org/pdf/1709.04264.pdf)]
 
 ## DONE
 **MemNet**:  "A knowledge-groundedneural conversation model." In Proceedings of AAAI 2018.  [[Paper]](https://arxiv.org/pdf/1702.01932v2.pdf) [[code]](https://github.com/mgalley/DSTC7-End-to-End-Conversation-Modeling) [[Note]](http://www.sohu.com/a/129408533_642762)
@@ -11,6 +11,8 @@
 **CCM**: "Commonsense Knowledge Aware Conversation Generation with Graph Attention." IJCAIECAI(2018) [[Paper](https://www.ijcai.org/proceedings/2018/0643.pdf)] [[Code](https://github.com/tuxchow/ccm)] [[Note](https://blog.csdn.net/tMb8Z9Vdm66wH68VX1/article/details/81518247)]
 
 **DSTC7 (Wechat)**: “Cluster-based Beam Search for Pointer-Generator Chatbot Grounded by Knowledge”.  [[Paper](http://workshop.colips.org/dstc7/papers/03.pdf)] [[News](https://mp.weixin.qq.com/s/Jnp6jmy-8lloI7p4dAofKg)] [[Note](https://zhuanlan.zhihu.com/p/57571861)]
+
+**DAWnet**: "Chat More: Deepening and Widening the Chatting Topic via A Deep Model". SIGIR(2018) [[PDF]](https://sigirdawnet.wixsite.com/dawnet) [[code]](https://sigirdawnet.wixsite.com/dawnet) [[Note]](http://tech.ifeng.com/a/20180424/44967077_0.shtml)
 
 ## Reading List
 ### 生成式对话相关论文 [[Ref1](https://www.jianshu.com/p/e6b58994c063)] [[Ref2]](https://blog.csdn.net/qq_36301716/article/details/80071361)
