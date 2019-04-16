@@ -199,3 +199,17 @@ $e_{k_i^c}​$ is the embedding vector of the i-th **contextual** keyword.
 
 ![DAWnet-Deep](./images/DAWnet-Deep.png)
 
+## CopyNet
+
+> Flexible End-to-End Dialogue System for Knowledge Grounded Conversation
+
+作者提出了一个fully data driven的生成对话模型GenDS，其能够基于输入信息（input）和相关知识库（KB）生成响应。GenDS由三部分（Candidate Facts Retriever、Message Encoder、Reply Decoder）组成：
+
+1. Candidate Facts Retriever：从input中提取entity（E），然后在KB中进行query，将通过relation寻找到的objects和subjects作为Candidate Facts存储为一个集合。
+2. Message Encoder：常见的Seq2Seq的Encoder部分，将input转换为一个representation H
+3. Reply Decoder：在该Decoder中是根据H和candidate facts生成response。此处设计了一个门z knowledge_gate={0,1} 来控制该生成的是knowledge word还是common word
+
+------
+
+- 作者把所有单词分为knowledge words（KB中所包含实体） 和 common words（其他），他在引入知识时的形式，是类似从知识库三元组中复制词的方法。换言之，模型中的隐向量并没有真正理解知识。
+- 论文中提到的Fact Retriever 挺有意思。我认为这种比对所有词都做索引的方法要好。

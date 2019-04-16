@@ -3,6 +3,8 @@
 
 **GTTP**: "Towards Exploiting Background Knowledge for Building Conversation Systems". EMNLP(2018)  [[Paper]](https://arxiv.org/pdf/1809.08205v1.pdf) [[code]](https://github.com/nikitacs16/Holl-E) :star::star::star::star::star:
 
+**HERD**: "Building end-to-end dialogue systems using generative hierarchical neural network models." In Proceedings of AAAI (2016) [[Paper](https://arxiv.org/pdf/1507.04808v3.pdf)] [[code]](https://github.com/julianser/hed-dlg-truncated)
+
 **CopyNet (GenDS)**: "Flexible End-to-End Dialogue System for Knowledge Grounded Conversation". [[Paper](https://arxiv.org/pdf/1709.04264.pdf)]
 
 ## DONE
@@ -14,7 +16,7 @@
 
 **DAWnet**: "Chat More: Deepening and Widening the Chatting Topic via A Deep Model". SIGIR(2018) [[PDF]](https://sigirdawnet.wixsite.com/dawnet) [[code]](https://sigirdawnet.wixsite.com/dawnet) [[Note]](http://tech.ifeng.com/a/20180424/44967077_0.shtml)
 
-**AKGCM (Baidu)**: “Knowledge Aware Conversation Generation with Reasoning on Augmented Graph”. [[Paper](https://arxiv.org/pdf/1903.10245v1.pdf)] [[Note](AKGCM.md)] 
+**AKGCM (Baidu)**: “Knowledge Aware Conversation Generation with Reasoning on Augmented Graph” 2019. [[Paper](https://arxiv.org/pdf/1903.10245v1.pdf)] [[Note](AKGCM.md)] 
 
 ## Reading List
 ### 生成式对话相关论文 [[Ref1](https://www.jianshu.com/p/e6b58994c063)] [[Ref2]](https://blog.csdn.net/qq_36301716/article/details/80071361)
@@ -26,10 +28,10 @@ __Commonsense Knowledge Aware Conversation Generation with Graph Attention__ [[P
 
 __Flexible End-to-End Dialogue System for Knowledge Grounded Conversation__ [[Paper](https://arxiv.org/pdf/1709.04264.pdf)]
 
-### 2019
-__(百度) Knowledge Aware Conversation Generation with Reasoning on Augmented Graph__ [[Paper](https://arxiv.org/pdf/1903.10245v1.pdf)] 
+
 
 ### 第七届对话系统技术挑战赛（DSTC7）[[Home](http://workshop.colips.org/dstc7/)] [[Task Description](http://workshop.colips.org/dstc7/proposals/DSTC7-MSR_end2end.pdf)]
+
 __(微信) Cluster-based Beam Search for Pointer-Generator Chatbot Grounded by Knowledge__ [[Paper](http://workshop.colips.org/dstc7/papers/03.pdf)] [[News](https://mp.weixin.qq.com/s/Jnp6jmy-8lloI7p4dAofKg)] [[Note](https://zhuanlan.zhihu.com/p/57571861)]
 
 ### Existing works or baselines
