@@ -14,6 +14,8 @@
 
 **DAWnet**: "Chat More: Deepening and Widening the Chatting Topic via A Deep Model". SIGIR(2018) [[PDF]](https://sigirdawnet.wixsite.com/dawnet) [[code]](https://sigirdawnet.wixsite.com/dawnet) [[Note]](http://tech.ifeng.com/a/20180424/44967077_0.shtml)
 
+**AKGCM (Baidu)**: “Knowledge Aware Conversation Generation with Reasoning on Augmented Graph”. [[Paper](https://arxiv.org/pdf/1903.10245v1.pdf)] [[Note](AKGCM.md)] 
+
 ## Reading List
 ### 生成式对话相关论文 [[Ref1](https://www.jianshu.com/p/e6b58994c063)] [[Ref2]](https://blog.csdn.net/qq_36301716/article/details/80071361)
 __Augmenting End-to-End Dialog Systems with Commonsense Knowledge__ [[Paper](https://arxiv.org/pdf/1709.05453.pdf)]
