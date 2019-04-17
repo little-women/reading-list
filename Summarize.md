@@ -22,6 +22,16 @@ $$
 
 $r_i​$ 是代表 fi 的词袋表示（v维）；u 是聊天信息encoder出的结果（d维）.
 
+## CopyNet
+
+> Flexible End-to-End Dialogue System for Knowledge Grounded Conversation
+
+GenDS由三部分组成：
+
+1. Candidate Facts Retriever：从input中提取entity（E），然后在KB中进行query，将通过relation寻找到的objects和subjects作为Candidate Facts存储为一个集合。
+2. Message Encoder：常见的Seq2Seq的Encoder部分，将input转换为一个representation H
+3. Reply Decoder：在该Decoder中是根据H和candidate facts生成response。此处设计了一个门z knowledge_gate={0,1} 来控制该生成的是knowledge word还是common word.
+
 ## CCM
 > Knowledge Aware Conversation Generation with Reasoning on Augmented Graph
 
@@ -191,7 +201,7 @@ s_t=f(s_{t-1},[e_{k_{t-1}^p}, c_t])\\
 m_i = W_t e_{k_{i}^c} \\
 c_t = \sum_{i=1}^T \alpha_{ti} h_i + \sum_{i=T+1}^{T+M} \alpha_{ti}m_i
 $$
-$e_{k_{t-1}^p}$ is the embedding vector of the keyword at time t-1 in the sequence of the **predicted** keywords.
+$e_{k_{t-1}^p}​$ is the embedding vector of the keyword at time t-1 in the sequence of the **predicted** keywords.
 
 $e_{k_i^c}​$ is the embedding vector of the i-th **contextual** keyword.
 
@@ -199,17 +209,20 @@ $e_{k_i^c}​$ is the embedding vector of the i-th **contextual** keyword.
 
 ![DAWnet-Deep](./images/DAWnet-Deep.png)
 
-## CopyNet
+$$
+l_0=[h_T,e_{k_1^c},e_{k_2^c},...,e_{k_M^c}]\\
+q=MLP(l_0)\\
+m_i = q_i W_t e_{k_i}^c
+$$
 
-> Flexible End-to-End Dialogue System for Knowledge Grounded Conversation
+### Decoder
 
-作者提出了一个fully data driven的生成对话模型GenDS，其能够基于输入信息（input）和相关知识库（KB）生成响应。GenDS由三部分（Candidate Facts Retriever、Message Encoder、Reply Decoder）组成：
+![DAWnet-Decoder](./images/DAWnet-Decoder.png)
 
-1. Candidate Facts Retriever：从input中提取entity（E），然后在KB中进行query，将通过relation寻找到的objects和subjects作为Candidate Facts存储为一个集合。
-2. Message Encoder：常见的Seq2Seq的Encoder部分，将input转换为一个representation H
-3. Reply Decoder：在该Decoder中是根据H和candidate facts生成response。此处设计了一个门z knowledge_gate={0,1} 来控制该生成的是knowledge word还是common word
+$$
+n_i = W_t e_{k_1}^p \\
+c_t = \sum_{i=1}^T \alpha_{ti} h_i + \sum_{i=T+1}^{T+M} \alpha_{ti}m_i + \sum_{i=T+M+1}^{T+M+N} \alpha_{ti}n_i
+$$
 
-------
+## HERD
 
-- 作者把所有单词分为knowledge words（KB中所包含实体） 和 common words（其他），他在引入知识时的形式，是类似从知识库三元组中复制词的方法。换言之，模型中的隐向量并没有真正理解知识。
-- 论文中提到的Fact Retriever 挺有意思。我认为这种比对所有词都做索引的方法要好。

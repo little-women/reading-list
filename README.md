@@ -5,10 +5,10 @@
 
 **HERD**: "Building end-to-end dialogue systems using generative hierarchical neural network models." In Proceedings of AAAI (2016) [[Paper](https://arxiv.org/pdf/1507.04808v3.pdf)] [[code]](https://github.com/julianser/hed-dlg-truncated)
 
-**CopyNet (GenDS)**: "Flexible End-to-End Dialogue System for Knowledge Grounded Conversation". [[Paper](https://arxiv.org/pdf/1709.04264.pdf)]
-
 ## DONE [[Summarize]](Summarize.md)
 **MemNet**:  "A knowledge-groundedneural conversation model." In Proceedings of AAAI 2018.  [[Paper]](https://arxiv.org/pdf/1702.01932v2.pdf) [[code]](https://github.com/mgalley/DSTC7-End-to-End-Conversation-Modeling) [[Note]](http://www.sohu.com/a/129408533_642762)
+
+**CopyNet (GenDS)**: "Flexible End-to-End Dialogue System for Knowledge Grounded Conversation". [[Paper](https://arxiv.org/pdf/1709.04264.pdf)]
 
 **CCM**: "Commonsense Knowledge Aware Conversation Generation with Graph Attention." IJCAIECAI(2018) [[Paper](https://www.ijcai.org/proceedings/2018/0643.pdf)] [[Code](https://github.com/tuxchow/ccm)] [[Note](https://blog.csdn.net/tMb8Z9Vdm66wH68VX1/article/details/81518247)]
 
@@ -27,8 +27,6 @@ __Topic Aware Neural Response Generation__ [[Paper](https://arxiv.org/pdf/1606.0
 __Commonsense Knowledge Aware Conversation Generation with Graph Attention__ [[Paper](https://www.ijcai.org/proceedings/2018/0643.pdf)] [[Code](https://github.com/tuxchow/ccm)] [[Note](https://blog.csdn.net/tMb8Z9Vdm66wH68VX1/article/details/81518247)]
 
 __Flexible End-to-End Dialogue System for Knowledge Grounded Conversation__ [[Paper](https://arxiv.org/pdf/1709.04264.pdf)]
-
-
 
 ### 第七届对话系统技术挑战赛（DSTC7）[[Home](http://workshop.colips.org/dstc7/)] [[Task Description](http://workshop.colips.org/dstc7/proposals/DSTC7-MSR_end2end.pdf)]
 
