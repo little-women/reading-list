@@ -25,8 +25,9 @@
         section 学习
         Paper-DAWnet      :done, 2019-04-16, 1d
         Paper-CopyNet     :done,  2019-04-16, 1d
-        TransE 学习          :crit, active, study1, 2019-04-16, 1d
-        预训练模型的使用          :after study1, 36h
+        Paper-HERD     :active,  2019-04-17, 1d
+        TransE 学习          :done, study1, 2019-04-16, 1d
+        预训练模型的使用          :active, after study1, 36h
         
         section 开发
         Code-CCM                      :done,2019-04-15, 1d
