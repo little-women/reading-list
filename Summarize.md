@@ -224,5 +224,11 @@ n_i = W_t e_{k_1}^p \\
 c_t = \sum_{i=1}^T \alpha_{ti} h_i + \sum_{i=T+1}^{T+M} \alpha_{ti}m_i + \sum_{i=T+M+1}^{T+M+N} \alpha_{ti}n_i
 $$
 
-## HERD
+
+
+## Others
+
+![arch1](./images/arch1.jpg)
+
+![arch2](./images/arch2.jpg)
 

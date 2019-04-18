@@ -3,7 +3,9 @@
 
 **GTTP**: "Towards Exploiting Background Knowledge for Building Conversation Systems". EMNLP(2018)  [[Paper]](https://arxiv.org/pdf/1809.08205v1.pdf) [[code]](https://github.com/nikitacs16/Holl-E) :star::star::star::star::star:
 
-**HERD**: "Building end-to-end dialogue systems using generative hierarchical neural network models." In Proceedings of AAAI (2016) [[Paper](https://arxiv.org/pdf/1507.04808v3.pdf)] [[code]](https://github.com/julianser/hed-dlg-truncated)
+Augmenting End-to-End Dialog Systems with Commonsense Knowledge [[Paper](https://arxiv.org/pdf/1709.05453.pdf)]
+
+Topic Aware Neural Response Generation [[Paper](https://arxiv.org/pdf/1606.08340.pdf)]
 
 ## DONE [[Summarize]](Summarize.md)
 **MemNet**:  "A knowledge-groundedneural conversation model." In Proceedings of AAAI 2018.  [[Paper]](https://arxiv.org/pdf/1702.01932v2.pdf) [[code]](https://github.com/mgalley/DSTC7-End-to-End-Conversation-Modeling) [[Note]](http://www.sohu.com/a/129408533_642762)
@@ -15,6 +17,8 @@
 **DSTC7 (Wechat)**: “Cluster-based Beam Search for Pointer-Generator Chatbot Grounded by Knowledge”.  [[Paper](http://workshop.colips.org/dstc7/papers/03.pdf)] [[News](https://mp.weixin.qq.com/s/Jnp6jmy-8lloI7p4dAofKg)] [[Note](https://zhuanlan.zhihu.com/p/57571861)]
 
 **DAWnet**: "Chat More: Deepening and Widening the Chatting Topic via A Deep Model". SIGIR(2018) [[PDF]](https://sigirdawnet.wixsite.com/dawnet) [[code]](https://sigirdawnet.wixsite.com/dawnet) [[Note]](http://tech.ifeng.com/a/20180424/44967077_0.shtml)
+
+**HERD**: "Building end-to-end dialogue systems using generative hierarchical neural network models." In Proceedings of AAAI (2016) [[Paper](https://arxiv.org/pdf/1507.04808v3.pdf)] [[code]](https://github.com/julianser/hed-dlg-truncated)
 
 **AKGCM (Baidu)**: “Knowledge Aware Conversation Generation with Reasoning on Augmented Graph” 2019. [[Paper](https://arxiv.org/pdf/1903.10245v1.pdf)] [[Note](AKGCM.md)] 
 

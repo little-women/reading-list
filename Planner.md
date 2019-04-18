@@ -18,24 +18,24 @@
 ```
 
 ```mermaid
-        gantt
+       gantt
         dateFormat  YYYY-MM-DD
         title 周计划-Wei
         
         section 学习
         Paper-DAWnet      :done, 2019-04-16, 1d
         Paper-CopyNet     :done,  2019-04-16, 1d
-        Paper-HERD     :active,  2019-04-17, 1d
-        TransE 学习          :done, study1, 2019-04-16, 1d
+        Paper-HERD     :done,  2019-04-17, 1d
+        TransE 学习          :done, study1, 2019-04-17, 1d
         预训练模型的使用          :active, after study1, 36h
         
         section 开发
         Code-CCM                      :done,2019-04-15, 1d
         Code-MemNet                   :done,2019-04-15, 1d
-        调参，试使用预训练的embedding       :done,2019-04-16, 2d
+        使用预训练的embedding       :done,2019-04-16, 36h
     
         section 测试
-        尝试参照 CCM 改进                   :crit, active, task1, 2019-04-16, 2d
-        调参                        :task2, after task1, 2d
+        尝试参照 CCM 改进                   :crit, active, task1, 2019-04-17, 2d
+        调参                        :task2, 2019-04-18, 2d
 ```
 
