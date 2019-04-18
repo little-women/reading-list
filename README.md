@@ -5,7 +5,7 @@
 
 Augmenting End-to-End Dialog Systems with Commonsense Knowledge [[Paper](https://arxiv.org/pdf/1709.05453.pdf)]
 
-Topic Aware Neural Response Generation [[Paper](https://arxiv.org/pdf/1606.08340.pdf)]
+**TA-Seq2Seq**: "Topic Aware Neural Response Generation". AAAI(2017) [[Paper]](https://arxiv.org/pdf/1606.08340.pdf) [[code]](https://github.com/LynetteXing1991/TA-Seq2Seq) 
 
 ## DONE [[Summarize]](Summarize.md)
 **MemNet**:  "A knowledge-groundedneural conversation model." In Proceedings of AAAI 2018.  [[Paper]](https://arxiv.org/pdf/1702.01932v2.pdf) [[code]](https://github.com/mgalley/DSTC7-End-to-End-Conversation-Modeling) [[Note]](http://www.sohu.com/a/129408533_642762)
@@ -35,6 +35,12 @@ __Flexible End-to-End Dialogue System for Knowledge Grounded Conversation__ [[Pa
 ### 第七届对话系统技术挑战赛（DSTC7）[[Home](http://workshop.colips.org/dstc7/)] [[Task Description](http://workshop.colips.org/dstc7/proposals/DSTC7-MSR_end2end.pdf)]
 
 __(微信) Cluster-based Beam Search for Pointer-Generator Chatbot Grounded by Knowledge__ [[Paper](http://workshop.colips.org/dstc7/papers/03.pdf)] [[News](https://mp.weixin.qq.com/s/Jnp6jmy-8lloI7p4dAofKg)] [[Note](https://zhuanlan.zhihu.com/p/57571861)]
+
+### Blogs
+
+[深度学习对话系统理论篇--Deep Reinforcement Learning for Dialogue Generation](https://zhuanlan.zhihu.com/p/31829823)
+
+[微软亚洲研究院论文解读：基于动态词表的对话生成研究](https://zhuanlan.zhihu.com/p/32632317?edition=yidianzixun&utm_source=yidianzixun&yidian_docid=0I3bxKKr)
 
 ### Existing works or baselines
 
