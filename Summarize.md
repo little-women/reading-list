@@ -220,7 +220,7 @@ $$
 ![DAWnet-Decoder](./images/DAWnet-Decoder.png)
 
 $$
-n_i = W_t e_{k_1}^p \\
+n_i = W_t e_{k_i}^p \\
 c_t = \sum_{i=1}^T \alpha_{ti} h_i + \sum_{i=T+1}^{T+M} \alpha_{ti}m_i + \sum_{i=T+M+1}^{T+M+N} \alpha_{ti}n_i
 $$
 

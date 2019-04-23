@@ -1,7 +1,6 @@
 ## TODO
-**Mem2Seq**: "Mem2Seq: Effectively Incorporating Knowledge Bases into End-to-End Task-Oriented Dialog Systems". ACL(2018) [[Paper]](https://arxiv.org/pdf/1804.08217v3.pdf) [[code]](https://github.com/HLTCHKUST/Mem2Seq) :star::star::star::star::star:
 
-**GTTP**: "Towards Exploiting Background Knowledge for Building Conversation Systems". EMNLP(2018)  [[Paper]](https://arxiv.org/pdf/1809.08205v1.pdf) [[code]](https://github.com/nikitacs16/Holl-E) :star::star::star::star::star:
+"Towards Exploiting Background Knowledge for Building Conversation Systems". EMNLP(2018)  [[Paper]](https://arxiv.org/pdf/1809.08205v1.pdf) [[code]](https://github.com/nikitacs16/Holl-E) 
 
 Augmenting End-to-End Dialog Systems with Commonsense Knowledge [[Paper](https://arxiv.org/pdf/1709.05453.pdf)]
 
@@ -19,6 +18,8 @@ Augmenting End-to-End Dialog Systems with Commonsense Knowledge [[Paper](https:/
 **DAWnet**: "Chat More: Deepening and Widening the Chatting Topic via A Deep Model". SIGIR(2018) [[PDF]](https://sigirdawnet.wixsite.com/dawnet) [[code]](https://sigirdawnet.wixsite.com/dawnet) [[Note]](http://tech.ifeng.com/a/20180424/44967077_0.shtml)
 
 **HERD**: "Building end-to-end dialogue systems using generative hierarchical neural network models." In Proceedings of AAAI (2016) [[Paper](https://arxiv.org/pdf/1507.04808v3.pdf)] [[code]](https://github.com/julianser/hed-dlg-truncated)
+
+**Mem2Seq**: "Mem2Seq: Effectively Incorporating Knowledge Bases into End-to-End Task-Oriented Dialog Systems". ACL(2018) [[Paper]](https://arxiv.org/pdf/1804.08217v3.pdf) [[code]](https://github.com/HLTCHKUST/Mem2Seq)  [[Note]](https://ziyaochen.github.io/2018/07/09/Mem2Seq-in-task-Oriented-dialogue/)
 
 **AKGCM (Baidu)**: “Knowledge Aware Conversation Generation with Reasoning on Augmented Graph” 2019. [[Paper](https://arxiv.org/pdf/1903.10245v1.pdf)] [[Note](AKGCM.md)] 
 
