@@ -1,10 +1,6 @@
 ## TODO
 
-"Towards Exploiting Background Knowledge for Building Conversation Systems". EMNLP(2018)  [[Paper]](https://arxiv.org/pdf/1809.08205v1.pdf) [[code]](https://github.com/nikitacs16/Holl-E) 
-
 Augmenting End-to-End Dialog Systems with Commonsense Knowledge [[Paper](https://arxiv.org/pdf/1709.05453.pdf)]
-
-**TA-Seq2Seq**: "Topic Aware Neural Response Generation". AAAI(2017) [[Paper]](https://arxiv.org/pdf/1606.08340.pdf) [[code]](https://github.com/LynetteXing1991/TA-Seq2Seq) 
 
 ## DONE [[Summarize]](Summarize.md)
 **MemNet**:  "A knowledge-groundedneural conversation model." In Proceedings of AAAI 2018.  [[Paper]](https://arxiv.org/pdf/1702.01932v2.pdf) [[code]](https://github.com/mgalley/DSTC7-End-to-End-Conversation-Modeling) [[Note]](http://www.sohu.com/a/129408533_642762)
@@ -20,6 +16,8 @@ Augmenting End-to-End Dialog Systems with Commonsense Knowledge [[Paper](https:/
 **HERD**: "Building end-to-end dialogue systems using generative hierarchical neural network models." In Proceedings of AAAI (2016) [[Paper](https://arxiv.org/pdf/1507.04808v3.pdf)] [[code]](https://github.com/julianser/hed-dlg-truncated)
 
 **Mem2Seq**: "Mem2Seq: Effectively Incorporating Knowledge Bases into End-to-End Task-Oriented Dialog Systems". ACL(2018) [[Paper]](https://arxiv.org/pdf/1804.08217v3.pdf) [[code]](https://github.com/HLTCHKUST/Mem2Seq)  [[Note]](https://ziyaochen.github.io/2018/07/09/Mem2Seq-in-task-Oriented-dialogue/)
+
+**TA-Seq2Seq**: "Topic Aware Neural Response Generation". AAAI(2017) [[Paper]](https://arxiv.org/pdf/1606.08340.pdf) [[code]](https://github.com/LynetteXing1991/TA-Seq2Seq) 
 
 **AKGCM (Baidu)**: “Knowledge Aware Conversation Generation with Reasoning on Augmented Graph” 2019. [[Paper](https://arxiv.org/pdf/1903.10245v1.pdf)] [[Note](AKGCM.md)] 
 
