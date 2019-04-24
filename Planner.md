@@ -46,16 +46,13 @@
         
         section 学习
         Pointer Generator      :done, s1, 2019-04-22, 1d
-        Paper-Mem2Seq            :done, after s1, 1d
-        Transformer     :s2, after s1,  1d
+        Paper-Mem2Seq            :done, s2, after s1, 1d
+        Transformer     :s3, after s2,  1d
         Bert         :after s2, 2d
         
-        section 开发
-        Transformer 实现     :after s1, 2d
-    
         section 测试
-        first try 代码写完     :crit,active,  t1, 2019-04-22, 2d
-        调参                 :after t1, 2d
+        first try    :done, t1, 2019-04-22, 2d
+        调参                 :after s1, 3d
         
 ```
 
