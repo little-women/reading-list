@@ -35,6 +35,10 @@ __Flexible End-to-End Dialogue System for Knowledge Grounded Conversation__ [[Pa
 
 __(微信) Cluster-based Beam Search for Pointer-Generator Chatbot Grounded by Knowledge__ [[Paper](http://workshop.colips.org/dstc7/papers/03.pdf)] [[News](https://mp.weixin.qq.com/s/Jnp6jmy-8lloI7p4dAofKg)] [[Note](https://zhuanlan.zhihu.com/p/57571861)]
 
+### VAE [[Ref]](http://www.sohu.com/a/127865218_465975)
+
+**VHRED**: "A Hierarchical Latent Variable Encoder-Decoder Model for Generating Dialogues". AAAI(2017) [[Paper](https://arxiv.org/pdf/1605.06069.pdf)] [[note]](https://blog.csdn.net/liuchonge/article/details/79237611)
+
 ### Blogs
 
 [深度学习对话系统理论篇--Deep Reinforcement Learning for Dialogue Generation](https://zhuanlan.zhihu.com/p/31829823)
