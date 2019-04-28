@@ -1,6 +1,6 @@
 ## TODO
 
-Augmenting End-to-End Dialog Systems with Commonsense Knowledge [[Paper](https://arxiv.org/pdf/1709.05453.pdf)]
+**Tri-LSTM**: Augmenting End-to-End Dialog Systems with Commonsense Knowledge [[Paper](https://arxiv.org/pdf/1709.05453.pdf)]
 
 ## DONE [[Summarize]](Summarize.md)
 **MemNet**:  "A knowledge-groundedneural conversation model." In Proceedings of AAAI 2018.  [[Paper]](https://arxiv.org/pdf/1702.01932v2.pdf) [[code]](https://github.com/mgalley/DSTC7-End-to-End-Conversation-Modeling) [[Note]](http://www.sohu.com/a/129408533_642762)
