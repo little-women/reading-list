@@ -1,6 +1,6 @@
 ## TODO
 
-**Tri-LSTM**: Augmenting End-to-End Dialog Systems with Commonsense Knowledge [[Paper](https://arxiv.org/pdf/1709.05453.pdf)]
+
 
 ## DONE [[Summarize]](Summarize.md)
 **MemNet**:  "A knowledge-groundedneural conversation model." In Proceedings of AAAI 2018.  [[Paper]](https://arxiv.org/pdf/1702.01932v2.pdf) [[code]](https://github.com/mgalley/DSTC7-End-to-End-Conversation-Modeling) [[Note]](http://www.sohu.com/a/129408533_642762)
@@ -18,6 +18,8 @@
 **Mem2Seq**: "Mem2Seq: Effectively Incorporating Knowledge Bases into End-to-End Task-Oriented Dialog Systems". ACL(2018) [[Paper]](https://arxiv.org/pdf/1804.08217v3.pdf) [[code]](https://github.com/HLTCHKUST/Mem2Seq)  [[Note]](https://ziyaochen.github.io/2018/07/09/Mem2Seq-in-task-Oriented-dialogue/)
 
 **TA-Seq2Seq**: "Topic Aware Neural Response Generation". AAAI(2017) [[Paper]](https://arxiv.org/pdf/1606.08340.pdf) [[code]](https://github.com/LynetteXing1991/TA-Seq2Seq) 
+
+**Tri-LSTM**: Augmenting End-to-End Dialog Systems with Commonsense Knowledge [[Paper](https://arxiv.org/pdf/1709.05453.pdf)]
 
 **AKGCM (Baidu)**: “Knowledge Aware Conversation Generation with Reasoning on Augmented Graph” 2019. [[Paper](https://arxiv.org/pdf/1903.10245v1.pdf)] [[Note](AKGCM.md)] 
 
@@ -45,22 +47,6 @@ __(微信) Cluster-based Beam Search for Pointer-Generator Chatbot Grounded by K
 
 [微软亚洲研究院论文解读：基于动态词表的对话生成研究](https://zhuanlan.zhihu.com/p/32632317?edition=yidianzixun&utm_source=yidianzixun&yidian_docid=0I3bxKKr)
 
-### Existing works or baselines
 
-**Seq2Seq**: which is widely used in open-domain conversational systems. 
-
-> Ilya Sutskever, Oriol Vinyals, and Quoc V Le. 2014. Sequence to sequence learning with neural networks. In Proceedings of NIPS, pages 3104–3112.
-
-**HRED**:  A hierarchical recurrent encoder-decoder model
-
-> Iulian Vlad Serban, Alessandro Sordoni, Yoshua Bengio, Aaron C. Courville, and Joelle Pineau. 2016. Building end-to-end dialogue systems using generative hierarchical neural network models. In Proceedings of AAAI, pages 3776–3784.
-
-**MemNet**: an end-to-end knowledge-grounded generation model, where top-k knowledge text candidates are selected by another retrieval model and then are stored into the memory units for generation. 
-
-> Marjan Ghazvininejad, Chris Brockett, Ming-Wei Chang, Bill Dolan, Jianfeng Gao, Wen tau Yih, and Michel Galley. 2018. A knowledge-groundedneural conversation model. In Proceedings of AAAI 2018, pages 5110–5117.
-
-**CCM**: an end-to-end commonsense conversational model, their model cannot effectively process long texts in vertices.
-
-> Hao Zhou, Tom Young, Minlie Huang, Haizhou Zhao, Jingfang Xu, and Xiaoyan Zhu. 2018. Commonsense knowledge aware conversation generation with graph attention. In Proceedings of IJCAIECAI, pages 4623–4629. 
 
 ### [NLP 资源合集](NLP.md)

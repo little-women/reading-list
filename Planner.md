@@ -1,7 +1,7 @@
 ```mermaid
         gantt
         dateFormat  YYYY-MM-DD
-        title 周计划-Wei
+        title 周计划 4.11-4.14
 
         section 调研
         Paper-CCM                      :done, paper1, 2019-04-11,1d
@@ -48,11 +48,27 @@
         Pointer Generator      :done, s1, 2019-04-22, 1d
         Paper-Mem2Seq            :done, s2, after s1, 1d
         Transformer     :s3, after s2,  1d
-        Bert         :after s2, 2d
+        Bert         :s4, after s2, 2d
+        
         
         section 测试
-        first try    :done, t1, 2019-04-22, 2d
-        调参                 :after s1, 3d
+        First try    :done, t1, 2019-04-22, 2d
+        调参                 :t2, after s1, 3d
         
+```
+
+```mermaid
+        gantt
+        dateFormat  YYYY-MM-DD
+        title 周计划 4.29-5.03
+        
+        section 学习
+        基于检索的对话模型      :active, s1, 2019-04-29, 2d
+        Code-Retrieval            :active, s2, 2019-04-30, 1d
+        Paper-Reading            :2019-05-01, 2d
+        
+        
+        section 测试
+        New try         :t1, 2019-05-01, 2d
 ```
 
