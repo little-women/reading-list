@@ -1,6 +1,16 @@
 ## TODO
 
+**GLMP**: "Global-to-local Memory Pointer Networks for Task-Oriented Dialogue". ICLR(2019) [[PDF]](https://arxiv.org/pdf/1901.04713.pdf) [[code]](https://github.com/jasonwu0731/GLMP)
 
+**RL-Dialogue**: "Deep Reinforcement Learning for Dialogue Generation". EMNLP(2016)
+
+**SMN**: "Sequential Matching Network: A New Architecture for Multi-turn Response Selection in Retrieval-Based Chatbots". ACL(2017) [[PDF]](./papers/dialogue-system/P17-1046.pdf)  [[code]](https://github.com/MarkWuNLP/MultiTurnResponseSelection) 
+
+**KVR Net**: "Key-Value Retrieval Networks for Task-Oriented Dialogue". SIGDIAL(2017) [[PDF]](./papers/dialogue-system/W17-5506.pdf) [[data]](https://nlp.stanford.edu/blog/a-new-multi-turn-multi-domain-task-oriented-dialogue-dataset/)
+
+**ERM**: "Elastic Responding Machine for Dialog Generation with Dynamically Mechanism Selecting". AAAI(2018)
+
+**SL+RL**: "Dialogue Learning with Human Teaching and Feedback in End-to-End Trainable Task-Oriented Dialogue Systems". NAACL(2018) [[PDF]](./papers/dialogue-system/N18-1187.pdf)
 
 ## DONE [[Summarize]](Summarize.md)
 **MemNet**:  "A knowledge-groundedneural conversation model." In Proceedings of AAAI 2018.  [[Paper]](https://arxiv.org/pdf/1702.01932v2.pdf) [[code]](https://github.com/mgalley/DSTC7-End-to-End-Conversation-Modeling) [[Note]](http://www.sohu.com/a/129408533_642762)
