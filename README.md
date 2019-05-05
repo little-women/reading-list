@@ -12,7 +12,11 @@
 
 **SL+RL**: "Dialogue Learning with Human Teaching and Feedback in End-to-End Trainable Task-Oriented Dialogue Systems". NAACL(2018) [[PDF]](./papers/dialogue-system/N18-1187.pdf)
 
-## DONE [[Summarize]](Summarize.md)
+**Retrieval+multi-seq2seq**: "An Ensemble of Retrieval-Based and Generation-Based Human-Computer Conversation Systems". IJCAI(2018)
+
+**PCCM**: "Assigning Personality/Profile to a Chatting Machine for Coherent Conversation Generation". IJCAI(2018)
+
+## DONE [[Summarize]](Knowledge Dialogue.md)
 **MemNet**:  "A knowledge-groundedneural conversation model." In Proceedings of AAAI 2018.  [[Paper]](https://arxiv.org/pdf/1702.01932v2.pdf) [[code]](https://github.com/mgalley/DSTC7-End-to-End-Conversation-Modeling) [[Note]](http://www.sohu.com/a/129408533_642762)
 
 **CopyNet (GenDS)**: "Flexible End-to-End Dialogue System for Knowledge Grounded Conversation". [[Paper](https://arxiv.org/pdf/1709.04264.pdf)]
