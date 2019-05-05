@@ -1,12 +1,12 @@
 ## TODO
 
-**GLMP**: "Global-to-local Memory Pointer Networks for Task-Oriented Dialogue". ICLR(2019) [[PDF]](https://arxiv.org/pdf/1901.04713.pdf) [[code]](https://github.com/jasonwu0731/GLMP)
+**GLMP**: "Global-to-local Memory Pointer Networks for Task-Oriented Dialogue". ICLR(2019) [[PDF]](https://arxiv.org/pdf/1901.04713.pdf) [[code]](https://github.com/jasonwu0731/GLMP) [[Note]](https://blog.csdn.net/sanra123/article/details/87992375)
 
-**RL-Dialogue**: "Deep Reinforcement Learning for Dialogue Generation". EMNLP(2016)
+**RL-Dialogue**: "Deep Reinforcement Learning for Dialogue Generation". EMNLP(2016) [[Note]](https://zhuanlan.zhihu.com/p/31829823)
 
-**SMN**: "Sequential Matching Network: A New Architecture for Multi-turn Response Selection in Retrieval-Based Chatbots". ACL(2017) [[PDF]](./papers/dialogue-system/P17-1046.pdf)  [[code]](https://github.com/MarkWuNLP/MultiTurnResponseSelection) 
+**SMN**: "Sequential Matching Network: A New Architecture for Multi-turn Response Selection in Retrieval-Based Chatbots". ACL(2017) [[PDF]](https://arxiv.org/pdf/1612.01627.pdf)  [[code]](https://github.com/MarkWuNLP/MultiTurnResponseSelection) [[Note]](https://www.jianshu.com/p/3652b3f158d4)
 
-**KVR Net**: "Key-Value Retrieval Networks for Task-Oriented Dialogue". SIGDIAL(2017) [[PDF]](./papers/dialogue-system/W17-5506.pdf) [[data]](https://nlp.stanford.edu/blog/a-new-multi-turn-multi-domain-task-oriented-dialogue-dataset/)
+**KVR Net**: "Key-Value Retrieval Networks for Task-Oriented Dialogue". SIGDIAL(2017) [[Note]](https://blog.csdn.net/u010555997/article/details/76039971)
 
 **ERM**: "Elastic Responding Machine for Dialog Generation with Dynamically Mechanism Selecting". AAAI(2018)
 
@@ -57,10 +57,6 @@ __(微信) Cluster-based Beam Search for Pointer-Generator Chatbot Grounded by K
 
 ### Blogs
 
-[深度学习对话系统理论篇--Deep Reinforcement Learning for Dialogue Generation](https://zhuanlan.zhihu.com/p/31829823)
-
 [微软亚洲研究院论文解读：基于动态词表的对话生成研究](https://zhuanlan.zhihu.com/p/32632317?edition=yidianzixun&utm_source=yidianzixun&yidian_docid=0I3bxKKr)
-
-
 
 ### [NLP 资源合集](NLP.md)
