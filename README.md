@@ -2,8 +2,6 @@
 
 **RL-Dialogue**: "Deep Reinforcement Learning for Dialogue Generation". EMNLP(2016) [[Note]](https://zhuanlan.zhihu.com/p/31829823)
 
-**KVR Net**: "Key-Value Retrieval Networks for Task-Oriented Dialogue". SIGDIAL(2017) [[Note]](https://blog.csdn.net/u010555997/article/details/76039971)
-
 **ERM**: "Elastic Responding Machine for Dialog Generation with Dynamically Mechanism Selecting". AAAI(2018)
 
 **SL+RL**: "Dialogue Learning with Human Teaching and Feedback in End-to-End Trainable Task-Oriented Dialogue Systems". NAACL(2018) [[PDF]](./papers/dialogue-system/N18-1187.pdf)
@@ -17,6 +15,8 @@
 **SMN**: "Sequential Matching Network: A New Architecture for Multi-turn Response Selection in Retrieval-Based Chatbots". ACL(2017) [[PDF]](https://arxiv.org/pdf/1612.01627.pdf)  [[code]](https://github.com/MarkWuNLP/MultiTurnResponseSelection) [[Note]](https://www.jianshu.com/p/3652b3f158d4)
 
 **DAM**: "Multi-Turn Response Selection for Chatbots with Deep Attention Matching Network." Baidu. [[Paper]](http://aclweb.org/anthology/P18-1103) [[Note]](https://mp.weixin.qq.com/s/e4QHhSwHbnQON32oNKBIQA)
+
+**KVR Net**: "Key-Value Retrieval Networks for Task-Oriented Dialogue". SIGDIAL(2017) [[Note]](https://zhuanlan.zhihu.com/p/52477572)
 
 ## DONE [[Task-oriented Dialogue]](Task-oriented-Dialogue.md)
 
@@ -64,5 +64,7 @@ __(微信) Cluster-based Beam Search for Pointer-Generator Chatbot Grounded by K
 ### Blogs
 
 [微软亚洲研究院论文解读：基于动态词表的对话生成研究](https://zhuanlan.zhihu.com/p/32632317?edition=yidianzixun&utm_source=yidianzixun&yidian_docid=0I3bxKKr)
+
+[Personalization in Dialogue System](https://mp.weixin.qq.com/s/AqzdRoXthrUFUOqSNwgfqQ)
 
 ### [NLP 资源合集](NLP.md)

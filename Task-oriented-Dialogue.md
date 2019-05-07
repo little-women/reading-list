@@ -12,3 +12,5 @@
 
 > "Global-to-local Memory Pointer Networks for Task-Oriented Dialogue". ICLR(2019)
 
+![GLMP-Arch](./images/GLMP-Arch.png)
+
