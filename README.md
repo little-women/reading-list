@@ -1,7 +1,5 @@
 ## TODO
 
-**GLMP**: "Global-to-local Memory Pointer Networks for Task-Oriented Dialogue". ICLR(2019) [[PDF]](https://arxiv.org/pdf/1901.04713.pdf) [[code]](https://github.com/jasonwu0731/GLMP) [[Note]](https://blog.csdn.net/sanra123/article/details/87992375)
-
 **RL-Dialogue**: "Deep Reinforcement Learning for Dialogue Generation". EMNLP(2016) [[Note]](https://zhuanlan.zhihu.com/p/31829823)
 
 **SMN**: "Sequential Matching Network: A New Architecture for Multi-turn Response Selection in Retrieval-Based Chatbots". ACL(2017) [[PDF]](https://arxiv.org/pdf/1612.01627.pdf)  [[code]](https://github.com/MarkWuNLP/MultiTurnResponseSelection) [[Note]](https://www.jianshu.com/p/3652b3f158d4)
@@ -16,7 +14,13 @@
 
 **PCCM**: "Assigning Personality/Profile to a Chatting Machine for Coherent Conversation Generation". IJCAI(2018)
 
-## DONE [[Summarize]](Knowledge-Dialogue.md)
+## DONE [[Task-oriented Dialogue]](Task-oriented-Dialogue.md)
+
+**Mem2Seq**: "Mem2Seq: Effectively Incorporating Knowledge Bases into End-to-End Task-Oriented Dialog Systems". ACL(2018) [[Paper]](https://arxiv.org/pdf/1804.08217v3.pdf) [[code]](https://github.com/HLTCHKUST/Mem2Seq)  [[Note]](https://ziyaochen.github.io/2018/07/09/Mem2Seq-in-task-Oriented-dialogue/) [[Note]](https://zhuanlan.zhihu.com/p/44110616)
+
+**GLMP**: "Global-to-local Memory Pointer Networks for Task-Oriented Dialogue". ICLR(2019) [[PDF]](https://arxiv.org/pdf/1901.04713.pdf) [[code]](https://github.com/jasonwu0731/GLMP) [[Note]](https://blog.csdn.net/sanra123/article/details/87992375)
+
+## DONE [[Knowledge Dialogue]](Knowledge-Dialogue.md)
 **MemNet**:  "A knowledge-groundedneural conversation model." In Proceedings of AAAI 2018.  [[Paper]](https://arxiv.org/pdf/1702.01932v2.pdf) [[code]](https://github.com/mgalley/DSTC7-End-to-End-Conversation-Modeling) [[Note]](http://www.sohu.com/a/129408533_642762)
 
 **CopyNet (GenDS)**: "Flexible End-to-End Dialogue System for Knowledge Grounded Conversation". [[Paper](https://arxiv.org/pdf/1709.04264.pdf)]
@@ -27,15 +31,13 @@
 
 **DAWnet**: "Chat More: Deepening and Widening the Chatting Topic via A Deep Model". SIGIR(2018) [[PDF]](https://sigirdawnet.wixsite.com/dawnet) [[code]](https://sigirdawnet.wixsite.com/dawnet) [[Note]](http://tech.ifeng.com/a/20180424/44967077_0.shtml)
 
-**HERD**: "Building end-to-end dialogue systems using generative hierarchical neural network models." In Proceedings of AAAI (2016) [[Paper](https://arxiv.org/pdf/1507.04808v3.pdf)] [[code]](https://github.com/julianser/hed-dlg-truncated)
-
-**Mem2Seq**: "Mem2Seq: Effectively Incorporating Knowledge Bases into End-to-End Task-Oriented Dialog Systems". ACL(2018) [[Paper]](https://arxiv.org/pdf/1804.08217v3.pdf) [[code]](https://github.com/HLTCHKUST/Mem2Seq)  [[Note]](https://ziyaochen.github.io/2018/07/09/Mem2Seq-in-task-Oriented-dialogue/)
-
 **TA-Seq2Seq**: "Topic Aware Neural Response Generation". AAAI(2017) [[Paper]](https://arxiv.org/pdf/1606.08340.pdf) [[code]](https://github.com/LynetteXing1991/TA-Seq2Seq) 
 
 **Tri-LSTM**: Augmenting End-to-End Dialog Systems with Commonsense Knowledge [[Paper](https://arxiv.org/pdf/1709.05453.pdf)]
 
 **AKGCM (Baidu)**: “Knowledge Aware Conversation Generation with Reasoning on Augmented Graph” 2019. [[Paper](https://arxiv.org/pdf/1903.10245v1.pdf)] [[Note](AKGCM.md)] 
+
+**HERD**: "Building end-to-end dialogue systems using generative hierarchical neural network models." In Proceedings of AAAI (2016) [[Paper](https://arxiv.org/pdf/1507.04808v3.pdf)] [[code]](https://github.com/julianser/hed-dlg-truncated)
 
 ## Reading List
 ### 生成式对话相关论文 [[Ref1](https://www.jianshu.com/p/e6b58994c063)] [[Ref2]](https://blog.csdn.net/qq_36301716/article/details/80071361)

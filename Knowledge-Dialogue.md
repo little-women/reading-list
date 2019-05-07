@@ -20,7 +20,7 @@ o=\sum_{i=1}^kp_ic_i\\
 \hat{u} = o+u
 $$
 
-$r_i​$ 是代表 fi 的词袋表示（v维）；u 是聊天信息encoder出的结果（d维）.
+$r_i$ 是代表 fi 的词袋表示（v维）；u 是聊天信息encoder出的结果（d维）.
 
 ## CopyNet
 
@@ -169,7 +169,7 @@ $$
 Pr(w|t,H,F) = \sum_{m=1}^3 Pr(m|t,H,F) Pr_m(w|t,H,F)
 $$
 
-1. 对于 Seq2Seq生成一个词：$Pr_m(w|t,H,F)=softmax(W_g h_t^R)​$
+1. 对于 Seq2Seq生成一个词：$Pr_m(w|t,H,F)=softmax(W_g h_t^R)$
 2. 对于从对话历史或者背景事实中复制一个词： $Pr_m(w|t,H,F)=\alpha_{ti}^Hor\alpha_{ti}^F$
 
 #### Cluster-based Beam Search
@@ -201,9 +201,9 @@ s_t=f(s_{t-1},[e_{k_{t-1}^p}, c_t])\\
 m_i = W_t e_{k_{i}^c} \\
 c_t = \sum_{i=1}^T \alpha_{ti} h_i + \sum_{i=T+1}^{T+M} \alpha_{ti}m_i
 $$
-$e_{k_{t-1}^p}​$ is the embedding vector of the keyword at time t-1 in the sequence of the **predicted** keywords.
+$e_{k_{t-1}^p}$ is the embedding vector of the keyword at time t-1 in the sequence of the **predicted** keywords.
 
-$e_{k_i^c}​$ is the embedding vector of the i-th **contextual** keyword.
+$e_{k_i^c}$ is the embedding vector of the i-th **contextual** keyword.
 
 ### Deep Channel
 
@@ -224,7 +224,10 @@ n_i = W_t e_{k_i}^p \\
 c_t = \sum_{i=1}^T \alpha_{ti} h_i + \sum_{i=T+1}^{T+M} \alpha_{ti}m_i + \sum_{i=T+M+1}^{T+M+N} \alpha_{ti}n_i
 $$
 
+## PostKS
+> "Learning to Select Knowledge for Response Generation in Dialog Systems". arXiv(2019) 
 
+![PostKS-Arch](./images/PostKS-Arch.png)
 
 ## Others
 
