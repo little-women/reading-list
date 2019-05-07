@@ -1,14 +1,12 @@
 ## TODO
 
-**RL-Dialogue**: "Deep Reinforcement Learning for Dialogue Generation". EMNLP(2016) [[Note]](https://zhuanlan.zhihu.com/p/31829823)
-
 **ERM**: "Elastic Responding Machine for Dialog Generation with Dynamically Mechanism Selecting". AAAI(2018)
-
-**SL+RL**: "Dialogue Learning with Human Teaching and Feedback in End-to-End Trainable Task-Oriented Dialogue Systems". NAACL(2018) [[PDF]](./papers/dialogue-system/N18-1187.pdf)
 
 **Retrieval+multi-seq2seq**: "An Ensemble of Retrieval-Based and Generation-Based Human-Computer Conversation Systems". IJCAI(2018)
 
-**PCCM**: "Assigning Personality/Profile to a Chatting Machine for Coherent Conversation Generation". IJCAI(2018)
+**PCCM**: "Assigning Personality/Profile to a Chatting Machine for Coherent Conversation Generation". IJCAI(2018) [[Note]](https://blog.csdn.net/aliceyangxi1987/article/details/75276376)
+
+**RL-Dialogue**: "Deep Reinforcement Learning for Dialogue Generation". EMNLP(2016) [[Note]](https://zhuanlan.zhihu.com/p/31829823)
 
 ## DONE [[Retrieval Dialogue]](Retrieval-Dialogue.md)
 
