@@ -2,8 +2,6 @@
 
 **RL-Dialogue**: "Deep Reinforcement Learning for Dialogue Generation". EMNLP(2016) [[Note]](https://zhuanlan.zhihu.com/p/31829823)
 
-**SMN**: "Sequential Matching Network: A New Architecture for Multi-turn Response Selection in Retrieval-Based Chatbots". ACL(2017) [[PDF]](https://arxiv.org/pdf/1612.01627.pdf)  [[code]](https://github.com/MarkWuNLP/MultiTurnResponseSelection) [[Note]](https://www.jianshu.com/p/3652b3f158d4)
-
 **KVR Net**: "Key-Value Retrieval Networks for Task-Oriented Dialogue". SIGDIAL(2017) [[Note]](https://blog.csdn.net/u010555997/article/details/76039971)
 
 **ERM**: "Elastic Responding Machine for Dialog Generation with Dynamically Mechanism Selecting". AAAI(2018)
@@ -13,6 +11,12 @@
 **Retrieval+multi-seq2seq**: "An Ensemble of Retrieval-Based and Generation-Based Human-Computer Conversation Systems". IJCAI(2018)
 
 **PCCM**: "Assigning Personality/Profile to a Chatting Machine for Coherent Conversation Generation". IJCAI(2018)
+
+## DONE [[Retrieval Dialogue]](Retrieval-Dialogue.md)
+
+**SMN**: "Sequential Matching Network: A New Architecture for Multi-turn Response Selection in Retrieval-Based Chatbots". ACL(2017) [[PDF]](https://arxiv.org/pdf/1612.01627.pdf)  [[code]](https://github.com/MarkWuNLP/MultiTurnResponseSelection) [[Note]](https://www.jianshu.com/p/3652b3f158d4)
+
+**DAM**: "Multi-Turn Response Selection for Chatbots with Deep Attention Matching Network." Baidu. [[Paper]](http://aclweb.org/anthology/P18-1103) [[Note]](https://mp.weixin.qq.com/s/e4QHhSwHbnQON32oNKBIQA)
 
 ## DONE [[Task-oriented Dialogue]](Task-oriented-Dialogue.md)
 
